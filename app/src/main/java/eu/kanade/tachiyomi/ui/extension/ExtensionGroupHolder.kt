@@ -15,6 +15,6 @@ class ExtensionGroupHolder(view: View, adapter: FlexibleAdapter<*>) :
         title.text = when {
             item.installed -> itemView.context.getString(R.string.ext_installed)
             else -> itemView.context.getString(R.string.ext_available)
-        } + " (" + item.size + ")"
+        }
     }
 }
