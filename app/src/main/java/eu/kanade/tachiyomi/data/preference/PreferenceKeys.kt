@@ -115,6 +115,8 @@ object PreferenceKeys {
 
     const val downloadBadge = "display_download_badge"
 
+    const val extensionLangPrefix = "extension_lang_selection_"
+
     @Deprecated("Use the preferences of the source")
     fun sourceUsername(sourceId: Long) = "pref_source_username_$sourceId"
 
